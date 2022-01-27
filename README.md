@@ -53,6 +53,7 @@ The script developed in this project can be applied to auditing other elections.
     county_name =  row[1] # County Name is the 2nd column, and, thus, has index 1
     ```
 The dataset name can be changed in line 9: 
+    
     ```
     # Add a variable to load a file from a path.
     file_to_load = os.path.join("Resources", "election_results.csv")
@@ -65,6 +66,7 @@ However, the file has to be in the CSV format, otherwise, line 38 needs to be ch
     ```
 
 To write election results in the text file makes sure to create an Analysis folder in your repository, where you will save the file:
+
     ```
     # Add a variable to save the file to a path.
     # Make sure that the folder "Analysis" is created
