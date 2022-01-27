@@ -3,10 +3,10 @@
 ## Overview of the Project
 
 ### Background information 
-There are **three main voting methods**
-- Mail-In Ballots are hand-counted at the central office
-- Punch Cards are collected and then fed into a machine that tabulates votes totals and sends the results to the central office
-- Direct Recording Electronic (DRE) counting machines. DRE memory cards are sent to the central office and counted by a computer. 
+There are **three main voting methods**:
+- Mail-In Ballots are hand-counted at the central office.
+- Punch Cards are collected and then fed into a machine that tabulates votes totals and sends the results to the central office.
+- Direct Recording Electronic (DRE) counting machines. The DRE memory cards are sent to the central office and counted by a computer. 
 
 The votes cast by these three methods will determine the election results. 
 
@@ -25,14 +25,10 @@ The election commission has requested some additional data to complete the audit
 - The percentage of votes from each county out of the total count
 - The county with the highest turnout
 
-### Dataset
-The dataset consists of 369,711 observations, representing numbers for the  Ballot ID, a name for the County, and Candidate columns. The original data is in the CSV format and can be found [here](https://github.com/Aigerim-Zh/Election-Analysis/blob/main/Resources/election_results.csv).
-
-### Code
-Please find the code for this part of the analysis [here](https://github.com/Aigerim-Zh/Election-Analysis/blob/main/PyPoll_Challenge.py).
-
-### Software 
-This audit can be done in Excel but this project tries to automate the process using Python 3.7.6 64 bit, coded through VSCode 1.63.2. 
+### Resources
+ - **The dataset** consists of 369,711 observations, representing numbers for the  Ballot ID, a name for the County, and Candidate columns. The original data is in the CSV format and can be found [here](https://github.com/Aigerim-Zh/Election-Analysis/blob/main/Resources/election_results.csv).
+ - **The code for the analysis** can be found [here](https://github.com/Aigerim-Zh/Election-Analysis/blob/main/PyPoll_Challenge.py).
+ - This audit can be done in Excel but this project tries to automate the process using **Python 3.7.6 64 bit, coded through VSCode 1.63.2.**
 
 ## Election Audit Results
 
